@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cotizador de clases de Gimnasio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png"
+        href="assets/img/Bodybuilding-and-gym-logo-on-transparent-background-PNG.png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/productos.js"></script>
+    <script defer src="js/index.js"></script>
+    <script defer src="js/checkout.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="title">CHECKOUT</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Reserva</a>
+        <a href="checkout.html">Mis Reservas (<span id="productosEnCarrito">0</span>)</a><!-- js -->
+        <a href="#">Pagos</a>
+        <a href="#">Datos</a>
+    </nav>
+    <div class="container">
+        <div class="listado-productos">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="tablehead">Fecha</th>
+                        <th id="tablehead">Actividad</th>
+                        <th id="tablehead">Importe</th>
+                        <th id="tablehead">Quitar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><!-- js -->
+                        <td>Aquí</td>
+                        <td>verás</td>
+                        <td>productos</td>
+                        <td>Boton</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="botones">
+            <button class="button button-outline"><a href="index.html">Seguir comprando</a></button>
+            <button class="button" id="btnComprar">COMPRAR</button>
+        </div>
+    </div>
+</body>
+
+</html>
